@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f7f5;
+}
+.block {
+  display: block;
+}
+
+.block h2{
+  margin: 10px 0px;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Yellowtail', cursive;
+}
+header{
+  display: block;
+  background: #f2f7f5;
+  width: 80%
+  padding: 30px 40%;
+  height: 35px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 35px 30%;
+  box-shadow: 0px 0px 1px 0.1px #666666;
+  font-family: 'Krona One', sans-serif;
+  font-style: italic;
+
+}
+
+div img {
+  width: 100%;
+}
+
+.inline {
+  display: inline-block;
+  width: calc(20% - 20px);
+  margin: 10px;
+  background: white;
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 15px 1px #666666;  /*1 значение смещение по x,2-ое по y,3-e размытие,4-ое оригинальная линия,цвет*/
+  border-radius: 5px;
+}
+
+.inline img {
+  width: 100%;
+  border-radius: 5px;
+  height: 350px;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+nav {
+  display: block;
+  padding: 16px 30%;
+  margin-bottom: 16px 30%;
+  width: 80%;
+  height: 90px;
+  box-shadow: 0 0 20px 1px #666666;
+  background: #807a7a;
+
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  line-height: 40px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+
+}
+
+nav a:hover {
+  background: #ccc2c2;
+}
+
+footer {
+  display: block;
+  width: 80%;
+  padding: 16px 10%;
+  height: 50px;
+  background: #807a7a;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 1px;
+  text-align: center;
+  line-height: 50px; /* высота строки */
+  font-weight: bold;
+  font-family: 'Krona One', sans-serif;
+}
